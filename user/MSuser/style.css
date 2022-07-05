@@ -1,0 +1,516 @@
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  
+  }
+  .header-row1 {
+    margin-top: 20px;
+    display:flex;
+  }
+  .logoimg{
+    width:200px;
+     height: 70px;
+     margin-left: 0px;
+     border:2px solid rgb(255, 0, 0);
+  }
+
+  .titleM{
+    margin-left: 50px;
+  }
+  
+  .header-row2{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .header-row2 p{
+    margin-left: 950px;
+    padding: 5px 8px;
+    color: darkblue;
+    font-weight: bold;
+  }
+  
+  .header-row2 button{
+    margin-left: 20px;
+    
+  }
+  
+  .profilebtn{
+    display: inline-block;
+    background: darkblue;
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+  }
+  
+  .logoutbtn{
+    display: inline-block;
+    background: rgb(219, 26, 26);
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  h1{
+    color: rgb(0, 0, 139);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .line{
+    height: 5px;
+    background-color: darkblue;
+  }
+  
+  .line1{
+    height: 5px;
+    background-color: darkblue;
+    
+  }
+  
+  
+  main{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    min-height: 80vh;
+    background: linear-gradient(to left bottom, #ffffff 0%, #ff0000 30%);
+    display: flex;
+    
+    
+  }
+  
+  main::before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-image: url(images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.50;
+    
+  }
+  
+  
+  .glassright{
+    
+    
+    background: white;
+    min-height: 80vh;
+    width: 250px;
+    border:2px solid rgba(0, 0, 0, 0.432);
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 1rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    
+  }
+  .glassmiddle{
+    
+    
+    background: white;
+    min-height: 80vh;
+    width: 700px;
+    border:2px solid rgba(0, 0, 0, 0.432);
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 1rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  .glassleft{
+    
+    
+    background: white;
+    min-height: 80vh;
+    width: 400px;
+    border:2px solid rgba(0, 0, 0, 0.432);
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 1rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    
+  }
+  
+  .nav{
+    padding: 20px; 
+  }
+  
+  .nav-list{
+    padding: 2px;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-list li{
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    border:2px solid rgba(0, 0, 0, 0.432);
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+  
+  
+  label{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  .functionkey{
+    text-decoration: none;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+  }
+  a:hover {
+    color: rgb(2, 2, 253);
+  }
+  
+  form input{
+  
+    width: 200px;
+    height: 25px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border:2px solid rgba(0, 0, 0, 0.432);
+  }
+  
+  select{
+    width: 200px;
+    height: 25px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border:2px solid rgba(0, 0, 0, 0.432);
+    display: inline-block;
+  }
+  
+  .loginbtn{
+    display: inline-block;
+    background: darkblue;
+    color: #fff;
+    padding: 5px 15px;
+    margin-left: 150px;
+    margin-top: 20px;
+    transition: background 0.5s;
+      
+  }
+  
+  .Addbtn{
+    display: inline-block;
+    background: darkblue;
+    color: #fff;
+    padding: 5px 15px;
+    margin-left: 250px;
+    margin-top: 20px;
+    transition: background 0.5s;
+    
+  }
+  
+  
+  .resetbtn{
+    display: inline-block;
+    background: darkblue;
+    color: #fff;
+    padding: 5px 15px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    transition: background 0.5s;
+      
+  }
+  
+  footer{
+    background-color: white;
+    min-height: 20vh;
+  
+  }
+  .footer{
+    background: rgb(46, 44, 44);
+    color: #fff;
+    font-size: 14px;
+    padding: 60px 0 20px;
+  }
+  
+  .row{
+    margin-top: 5px;
+    display: flex;
+    
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  .col-1{
+    
+    margin-left: 10px;
+    
+  }
+  
+  .col-2{
+    
+    margin-left: 390px;
+    
+  }
+
+  .col-3{
+    
+    margin-left: 350px;
+    
+  }
+  .logoimgF{
+    width:200px;
+     height: 80px;
+     margin-left: 0px;
+     border:2px solid rgb(255, 0, 0);
+     
+  }
+  
+  .footer h3{
+   
+    color: #fff;
+  }
+  
+  .footer hr{
+    border: none;
+    width: 100%;
+    background: #8a8a8a;
+    height: 1px;
+    margin: 20px 0;
+    
+  }
+  
+  .copyright{
+    text-align: center;
+  }
+  
+  table {
+    width: 690px;
+    border-collapse: collapse;
+    margin: 30px auto;
+  }
+  
+  th{
+    background-color: rgb(147, 173, 229);
+    height: 40px;
+    vertical-align: center;
+    border: 1px solid black;
+    text-align: center;
+    font-size: small;
+  }
+  .table1{
+    width: 390px;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: #f0eaeaf3;
+    font-weight: bold;
+  }
+  
+  td {
+    height: 40px;
+    vertical-align: center;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #d8d2d2;
+    font-size: small;
+  }
+  
+  .tableh{
+    width: 390px;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: rgb(211, 206, 206);
+  }
+  
+  .table2{
+    width: 390px;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .tdel{
+    color: red;
+  }
+  
+  .S-lable{
+    margin-top: 10px;
+  }
+  
+  .error{
+    color: #750606;
+  }
+  
+  .functionketCT{
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    border:2px solid rgba(0, 0, 0, 0.432);
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-left: 20px;
+  
+  }
+  .functionkeyD{
+    text-decoration: none;
+    color: rgb(26, 6, 209);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  .functionkeyDel{
+    text-decoration: none;
+    color: rgb(255, 1, 1);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+  }
+  
+  .downloadbtn{
+    display: inline-block;
+    background: rgb(31, 211, 7);
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right:5px;
+    border-radius: 1rem;
+    border:2px solid rgba(0, 0, 0, 0.432);
+  }
+  
+  .deletebtn{
+    display: inline-block;
+    background: rgb(219, 26, 26);
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1rem;
+    border:2px solid rgba(0, 0, 0, 0.432);
+  }
+  
+  .submitbtn{
+    display: inline-block;
+    background: rgb(105, 12, 180);
+    
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1rem;
+    border:2px solid rgba(231, 228, 228, 0.432);
+  }
+
+  .updatetbtn{
+    display: inline-block;
+    
+    background: darkblue;
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1rem;
+    border:2px solid rgba(231, 228, 228, 0.432);
+  }
+
+  .paytbtn{
+    display: inline-block;
+    
+    background: rgba(218, 142, 30, 0.856);
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1rem;
+    border:2px solid rgba(0, 0, 0, 0.432);
+  }
+
+  .printbtn{
+    display: inline-block;
+    
+    background: rgba(240, 82, 9, 0.993);
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1rem;
+    border:2px solid rgba(0, 0, 0, 0.432);
+  }
+
+  .viewbtn{
+    display: inline-block;
+    background: rgb(5, 70, 8);
+    color: #fff;
+    padding: 5px 15px;
+    transition: background 0.5s;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right:5px;
+    border-radius: 1rem;
+    border:2px solid rgba(0, 0, 0, 0.432);
+  }
